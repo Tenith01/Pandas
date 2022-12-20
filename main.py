@@ -9,6 +9,8 @@ df = pd.read_excel('instructors.xlsx') # can also index sheet by name or fetch a
 print(df.columns.ravel())
 
 ins = df['instructor code'].tolist()
+instructorsCode = df['instructor code'].tolist()
+
 print(df['instructor code'].tolist())
 print(df['instructors'].tolist())
 print(df['#of hours'].tolist())
